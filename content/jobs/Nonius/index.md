@@ -1,10 +1,10 @@
 ---
-date: '2018-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - April 2018'
-url: 'https://web.northeastern.edu/scout/'
+date: '2019-02-18'
+title: 'Software Engineering Trainee/Intern'
+company: 'Nonius'
+location: 'Maia, Porto, Portugal'
+range: 'February - June 2019'
+url: 'https://noniussolutions.com'
 ---
 
 - Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern

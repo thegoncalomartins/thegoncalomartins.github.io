@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -47,22 +48,39 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
-  const four = (
-    <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
-    </p>
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            defaultTitle: title
+            defaultDescription: description
+            siteUrl
+            defaultImage: image
+            hello
+            name
+            shortDescription
+            longDescription
+            emailMessage
+          }
+        }
+      }
+    `,
   );
-  const five = (
+
+  let { hello, name, shortDescription, longDescription, emailMessage } = site.siteMetadata;
+
+  hello = <h1>{hello}</h1>;
+  name = <h2 className="big-heading">{name}</h2>;
+  shortDescription = <h3 className="big-heading">{shortDescription}</h3>;
+  longDescription = <p>{longDescription}</p>;
+  emailMessage = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+      {emailMessage}
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [hello, name, shortDescription, longDescription, emailMessage];
 
   return (
     <StyledHeroSection>
