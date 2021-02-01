@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { srConfig, email } from '@config';
 import sr from '@utils/sr';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const StyledContactSection = styled.section`
   max-width: 600px;
@@ -44,19 +45,35 @@ const Contact = () => {
   const revealContainer = useRef(null);
   useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            contactTitle
+            contactSubtitle
+            opportunitiesMessage
+            sayHelloMessage
+          }
+        }
+      }
+    `,
+  );
+
+  const { contactTitle, contactSubtitle, opportunitiesMessage, sayHelloMessage} = site.siteMetadata;
+
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">{contactTitle}</h2>
 
-      <h2 className="title">Get In Touch</h2>
+      <h2 className="title">{contactSubtitle}</h2>
 
       <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        {opportunitiesMessage}
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        {sayHelloMessage}
       </a>
     </StyledContactSection>
   );

@@ -11,8 +11,13 @@ module.exports = {
     name: 'Gonçalo Martins',
     shortDescription: 'Mix of engineer and human being.',
     longDescription:
-      'I\'m a Software Engineer based in Porto, Portugal currently working at Cleva Insurance Software company.',
+      'I\'m a Software Engineer based in Porto, Portugal currently working at Cleva Insurance Software company and having fun in the technology world.',
     emailMessage: 'Let\'s get in touch',
+    contactTitle: 'What\'s Next?',
+    contactSubtitle: 'Get In Touch',
+    opportunitiesMessage: 'I\'m always up for new challenges and opportunities. \
+    If you want to ask any question about my work or you just want to say \'Hi\', feel free to contact me.',
+    sayHelloMessage: 'Say Hello',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

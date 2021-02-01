@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.JPG" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Java (Quarkus, Vert.x)', 'PostgreSQL', 'MongoDB', 'Neo4j', 'Redis', 'Kafka', 'Docker', 'Kubernetes', 'Jenkins', 'PHP'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +141,17 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>I'm Gonçalo Martins, a Software Engineer from Porto, Portugal.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I'm very interested in technology and how it can change the world to make it a better place.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I started my career as a trainee at <a href="https://noniussolutions.com">Nonius Hospitality Technology</a>, where I
+              developed my final project of the BSc in Software Engineering.
+              In August of the same year I joined <a href="https://byside.com">BySide</a> where I got my first job as a Junior Backend Engineer and stayed there for 6 months,
+              then I decided to move to <a href="https://i2s.pt">i2S Insurance Knowledge</a> as a Software Engineer and that's where I am at the moment.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

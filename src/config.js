@@ -30,13 +30,17 @@ module.exports = {
       url: '/#about',
     },
     {
+      name: 'Academic Background',
+      url: '/#academic',
+    },
+    {
       name: 'Experience',
       url: '/#jobs',
     },
-    {
-      name: 'Work',
-      url: '/#projects',
-    },
+ //   {
+ //     name: 'Work',
+ //     url: '/#projects',
+ //   },
     {
       name: 'Contact',
       url: '/#contact',
