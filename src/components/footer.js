@@ -109,8 +109,9 @@ const Footer = () => {
           <tr>
             <td>
               <a href="https://brittanychiang.com" target="_blank" rel="noreferrer">
-              <div>Designed &amp; Built by Brittany Chiang</div>
+              <div>Designed &amp; Built by Brittany Chiang,</div>
             </a>
+              <div>refined by me</div>
             </td>
           </tr>
           <tr>
