@@ -4,6 +4,7 @@ import {
   IconAppStore,
   IconBitbucket,
   IconCodepen,
+  IconDev,
   IconExternal,
   IconFolder,
   IconFork,
@@ -13,6 +14,7 @@ import {
   IconLoader,
   IconLogo,
   IconPlayStore,
+  IconStackOverflow,
   IconStar,
   IconTwitter,
   IconZap,
@@ -27,6 +29,8 @@ const Icon = ({ name }) => {
       return <IconBitbucket />;
     case 'Codepen':
       return <IconCodepen />;
+    case 'Dev':
+      return <IconDev />;
     case 'External':
       return <IconExternal />;
     case 'Folder':
@@ -47,6 +51,8 @@ const Icon = ({ name }) => {
       return <IconLogo />;
     case 'PlayStore':
       return <IconPlayStore />;
+    case 'StackOverflow':
+      return <IconStackOverflow />;
     case 'Star':
       return <IconStar />;
     case 'Twitter':

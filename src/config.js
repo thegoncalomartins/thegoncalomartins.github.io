@@ -11,6 +11,14 @@ module.exports = {
       url: 'https://bitbucket.org/gmartins97',
     },
     {
+      name: 'StackOverflow',
+      url: 'https://stackoverflow.com/users/7443154/gmartins97',
+    },
+    {
+      name: 'Dev',
+      url: 'https://dev.to/gmartins97',
+    },
+    {
       name: 'Instagram',
       url: 'https://instagram.com/thegoncalomartins',
     },
@@ -37,10 +45,10 @@ module.exports = {
       name: 'Experience',
       url: '/#jobs',
     },
- //   {
- //     name: 'Work',
- //     url: '/#projects',
- //   },
+    //   {
+    //     name: 'Work',
+    //     url: '/#projects',
+    //   },
     {
       name: 'Contact',
       url: '/#contact',
