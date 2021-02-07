@@ -4,19 +4,19 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/gmartins97',
+      url: 'https://github.com/thegoncalomartins',
     },
     {
       name: 'Bitbucket',
-      url: 'https://bitbucket.org/gmartins97',
+      url: 'https://bitbucket.org/thegoncalomartins',
     },
     {
       name: 'StackOverflow',
-      url: 'https://stackoverflow.com/users/7443154/gmartins97',
+      url: 'https://stackoverflow.com/users/7443154/thegoncalomartins',
     },
     {
       name: 'Dev',
-      url: 'https://dev.to/gmartins97',
+      url: 'https://dev.to/thegoncalomartins',
     },
     {
       name: 'Instagram',
@@ -24,11 +24,11 @@ module.exports = {
     },
     {
       name: 'Facebook',
-      url: 'https://facebook.com/gmartins97',
+      url: 'https://facebook.com/thegoncalomartins',
     },
     {
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/goncalomartins97',
+      url: 'https://linkedin.com/in/thegoncalomartins',
     },
   ],
 
