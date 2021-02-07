@@ -19,6 +19,10 @@ module.exports = {
       url: 'https://dev.to/thegoncalomartins',
     },
     {
+      name: 'Medium',
+      url: 'https://medium.com/@thegoncalomartins',
+    },
+    {
       name: 'Instagram',
       url: 'https://instagram.com/thegoncalomartins',
     },
