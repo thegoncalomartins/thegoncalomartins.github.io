@@ -29,12 +29,14 @@ const StyledSocialLinks = styled.div`
     padding: 0;
     margin: 0;
     list-style: none;
+    display: -webkit-box;
+    -webkit-box-pack: center;
 
     a {
       padding: 10px;
       svg {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
       }
     }
   }
@@ -109,8 +111,8 @@ const Footer = () => {
           <tr>
             <td>
               <a href="https://brittanychiang.com" target="_blank" rel="noreferrer">
-              <div>Designed &amp; Built by Brittany Chiang,</div>
-            </a>
+                <div>Designed &amp; Built by Brittany Chiang,</div>
+              </a>
               <div>refined by me</div>
             </td>
           </tr>
