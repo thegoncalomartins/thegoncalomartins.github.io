@@ -153,7 +153,7 @@ const StyledTabContent = styled.div`
   }
 `;
 
-const Academic = () => {
+const Education = () => {
   const data = useStaticQuery(graphql`
     query {
       academic: allMarkdownRemark(
@@ -221,10 +221,10 @@ const Academic = () => {
 
   return (
     <StyledJobsSection id="academic" ref={revealContainer}>
-      <h2 className="numbered-heading">Academic Background</h2>
+      <h2 className="numbered-heading">Education</h2>
 
       <div className="inner">
-        <StyledTabList role="tablist" aria-label="Academic tabs" onKeyDown={onKeyDown}>
+        <StyledTabList role="tablist" aria-label="Education tabs" onKeyDown={onKeyDown}>
           {academicData &&
             academicData.map(({ node }, i) => {
               const { degree } = node.frontmatter;
@@ -283,4 +283,4 @@ const Academic = () => {
   );
 };
 
-export default Academic;
+export default Education;

@@ -3,6 +3,10 @@ module.exports = {
 
   socialMedia: [
     {
+      name: 'Linkedin',
+      url: 'https://linkedin.com/in/thegoncalomartins',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/thegoncalomartins',
     },
@@ -23,16 +27,16 @@ module.exports = {
       url: 'https://medium.com/@thegoncalomartins',
     },
     {
-      name: 'Instagram',
-      url: 'https://instagram.com/thegoncalomartins',
-    },
-    {
       name: 'Facebook',
       url: 'https://facebook.com/thegoncalomartins',
     },
     {
-      name: 'Linkedin',
-      url: 'https://linkedin.com/in/thegoncalomartins',
+      name: 'Instagram',
+      url: 'https://instagram.com/thegoncalomartins',
+    },
+    {
+      name: 'Tiktok',
+      url: 'https://tiktok.com/@thegoncalomartins',
     },
   ],
 
@@ -42,8 +46,8 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Academic Background',
-      url: '/#academic',
+      name: 'Education',
+      url: '/#education',
     },
     {
       name: 'Experience',

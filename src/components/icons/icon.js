@@ -17,6 +17,7 @@ import {
   IconPlayStore,
   IconStackOverflow,
   IconStar,
+  IconTiktok,
   IconTwitter,
   IconZap,
   IconFacebook,
@@ -58,6 +59,8 @@ const Icon = ({ name }) => {
       return <IconStackOverflow />;
     case 'Star':
       return <IconStar />;
+    case 'Tiktok':
+      return <IconTiktok />;
     case 'Twitter':
       return <IconTwitter />;
     case 'Zap':
