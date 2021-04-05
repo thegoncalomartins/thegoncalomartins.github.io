@@ -34,7 +34,7 @@ module.exports = {
       name: 'Instagram',
       url: 'https://instagram.com/thegoncalomartins',
     },
-    // {s
+    // {
     //   name: 'Tiktok',
     //   url: 'https://tiktok.com/@thegoncalomartins',
     // },
