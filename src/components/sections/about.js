@@ -132,7 +132,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java (Quarkus, Vert.x)', 'PostgreSQL', 'MongoDB', 'Neo4j', 'Redis', 'Kafka', 'Docker', 'Kubernetes', 'Jenkins', 'PHP'];
+  const skills = [
+    'React',
+    'Angular',
+    'Java (Quarkus, Vert.x)',
+    'PostgreSQL',
+    'MongoDB',
+    'Neo4j',
+    'Redis',
+    'Kafka',
+    'Docker',
+    'Kubernetes',
+    'Jenkins',
+    'PHP',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -144,14 +157,18 @@ const About = () => {
             <p>I'm Gonçalo Martins, a Software Engineer from Porto, Portugal.</p>
 
             <p>
-              I'm very interested in technology and how it can change the world to make it a better place.
+              I'm very interested in technology and how it can change the world to make it a better
+              place.
             </p>
 
             <p>
-              I started my career as a trainee at <a href="https://noniussolutions.com">Nonius Hospitality Technology</a>, where I
-              developed my final project of the BSc in Software Engineering.
-              In August of the same year I joined <a href="https://byside.com">BySide</a> where I got my first job as a Junior Backend Engineer and stayed there for 6 months,
-              then I decided to move to <a href="https://i2s.pt">i2S Insurance Knowledge</a> as a Software Engineer and that's where I am at the moment.
+              I started my career as a trainee at{' '}
+              <a href="https://noniussolutions.com">Nonius Hospitality Technology</a>, where I
+              developed my final project of the BSc in Software Engineering. In August of the same
+              year I joined <a href="https://byside.com">BySide</a> where I got my first job as a
+              Junior Backend Engineer and stayed there for 6 months, then I decided to move to{' '}
+              <a href="https://i2s.pt">i2S Insurance Knowledge</a> as a Software Engineer and that's
+              where I am at the moment.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
