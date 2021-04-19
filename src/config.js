@@ -10,10 +10,10 @@ module.exports = {
       name: 'GitHub',
       url: 'https://github.com/thegoncalomartins',
     },
-    // {
-    //   name: 'Bitbucket',
-    //   url: 'https://bitbucket.org/thegoncalomartins',
-    // },
+    {
+      name: 'Bitbucket',
+      url: 'https://bitbucket.org/thegoncalomartins',
+    },
     {
       name: 'StackOverflow',
       url: 'https://stackoverflow.com/users/7443154/thegoncalomartins',
