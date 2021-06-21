@@ -136,6 +136,7 @@ const About = () => {
     'React',
     'Angular',
     'Java (Quarkus, Vert.x)',
+    'Kotlin (Spring)',
     'PostgreSQL',
     'MongoDB',
     'Neo4j',
@@ -167,8 +168,9 @@ const About = () => {
               developed my final project of the BSc in Software Engineering. In August of the same
               year I joined <a href="https://byside.com">BySide</a> where I got my first job as a
               Junior Backend Engineer and stayed there for 6 months, then I decided to move to{' '}
-              <a href="https://i2s.pt">i2S Insurance Knowledge</a> as a Software Engineer and that's
-              where I am at the moment.
+              <a href="https://i2s.pt">i2S Insurance Knowledge</a> as a Software Engineer. After
+              that journey I embraced a new challenge at <a href="https://talkdesk.com">Talkdesk</a>{' '}
+              as a Software Engineer too and that's where I am at the moment.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
