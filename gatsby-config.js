@@ -3,19 +3,19 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Gonçalo Martins',
-    description:
-      'Gonçalo Martins is a Software Engineer currently working at Cleva Insurance Software.',
+    description: 'Gonçalo Martins is a Software Engineer currently working at Talkdesk.',
     siteUrl: 'https://goncalomartins.dev',
     image: '/og.png',
     hello: 'Hi, my name is',
     name: 'Gonçalo Martins',
     shortDescription: 'Mix of engineer and human being.',
     longDescription:
-      'I\'m a Software Engineer based in Porto, Portugal currently working at Cleva Insurance Software company and having fun in the technology world.',
+      'I\'m a Software Engineer based in Porto, Portugal currently working at Talkdesk and having fun in the technology world.',
     emailMessage: 'Let\'s get in touch',
     contactTitle: 'What\'s Next?',
     contactSubtitle: 'Get In Touch',
-    opportunitiesMessage: 'I\'m always up for new challenges and opportunities. \
+    opportunitiesMessage:
+      'I\'m always up for new challenges and opportunities. \
     If you want to ask any question about my work or you just want to say \'Hi\', feel free to contact me.',
     sayHelloMessage: 'Say Hello',
   },

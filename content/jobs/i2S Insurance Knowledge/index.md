@@ -3,7 +3,7 @@ date: '2020-03-02'
 title: 'Software Engineer'
 company: 'i2S Insurance Knowledge'
 location: 'Porto, Portugal'
-range: 'March 2020 - Present'
+range: 'March 2020 - June 2021'
 url: 'https://www.i2s.pt/'
 ---
 

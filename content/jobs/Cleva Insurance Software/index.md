@@ -3,7 +3,7 @@ date: '2020-12-01'
 title: 'Software Engineer'
 company: 'Cleva Insurance Software'
 location: 'Porto, Portugal'
-range: 'December 2020 - Present'
+range: 'December 2020 - June 2021'
 url: 'https://cleva.fr/'
 ---
 
