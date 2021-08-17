@@ -6,7 +6,7 @@ import { srConfig } from '@config';
 import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 
-const StyledJobsSection = styled.section`
+const StyledEducationSection = styled.section`
   max-width: 700px;
 
   .inner {
@@ -220,7 +220,7 @@ const Education = () => {
   };
 
   return (
-    <StyledJobsSection id="academic" ref={revealContainer}>
+    <StyledEducationSection id="academic" ref={revealContainer}>
       <h2 className="numbered-heading">Education</h2>
 
       <div className="inner">
@@ -279,7 +279,7 @@ const Education = () => {
             );
           })}
       </div>
-    </StyledJobsSection>
+    </StyledEducationSection>
   );
 };
 
