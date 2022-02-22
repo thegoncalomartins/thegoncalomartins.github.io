@@ -13,4 +13,5 @@ url: 'https://talkdesk.com'
 - Develop unit and integration tests
 - Code review
 - Bring new ideas to the team and project
+- Part of the on-call route for one or two weeks per month
 - Technologies: Kotlin (Spring), Elixir, PostgreSQL, Cassandra, ScyllaDB, Kafka, Redis, Docker, Kubernetes, Jenkins, AWS
