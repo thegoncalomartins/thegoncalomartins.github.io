@@ -10,7 +10,7 @@ module.exports = {
     name: 'Gonçalo Martins',
     shortDescription: 'A mix of software engineer and human being.',
     longDescription:
-      'I\'m based in Porto, Portugal currently working at Talkdesk and having fun in the technology world.',
+      'I\'m based in Porto, Portugal currently working fully remote at <a href="https://talkdesk.com">Talkdesk</a> and having fun in the technology world.',
     emailMessage: 'Let\'s get in touch',
     contactTitle: 'What\'s Next?',
     contactSubtitle: 'Get In Touch',

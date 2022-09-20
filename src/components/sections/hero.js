@@ -73,7 +73,13 @@ const Hero = () => {
   hello = <h1>{hello}</h1>;
   name = <h2 className="big-heading">{name}</h2>;
   shortDescription = <h3 className="big-heading">{shortDescription}</h3>;
-  longDescription = <p>{longDescription}</p>;
+  longDescription = (
+    <p
+      dangerouslySetInnerHTML={{
+        __html: longDescription,
+      }}
+    ></p>
+  );
   emailMessage = (
     <a href={`mailto:${email}`} className="email-link">
       {emailMessage}
