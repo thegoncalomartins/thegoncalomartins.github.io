@@ -15,7 +15,8 @@ const IconFacebook = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="feather feather-facebook">
+    className="feather feather-facebook"
+  >
     <g>
       <path
         d="M34.094,8.688h4.756V0.005h-8.643c-0.721-0.03-9.51-0.198-11.788,8.489c-0.033,0.091-0.761,2.157-0.761,6.983l-7.903,0.024

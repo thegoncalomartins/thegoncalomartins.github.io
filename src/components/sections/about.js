@@ -131,19 +131,24 @@ const About = () => {
   }, []);
 
   const skills = [
-    'React',
-    'Angular',
-    'Java (Quarkus, Vert.x)',
-    'Kotlin (Spring)',
+    'Javascript (Vanilla, Node.js)',
+    'Java (Spring, Quarkus, Vert.x)',
+    'Kotlin (Spring, Quarkus)',
+    'Elixir (Phoenix)',
+    'PHP',
     'PostgreSQL',
     'MongoDB',
     'Neo4j',
     'Redis',
     'Kafka',
+    'RabbitMQ',
     'Docker',
     'Kubernetes',
+    'Terraform',
+    'AWS (Amazon Web Services)',
     'Jenkins',
-    'PHP',
+    'React',
+    'Angular',
   ];
 
   return (
@@ -161,14 +166,14 @@ const About = () => {
             </p>
 
             <p>
-              I started my career as a trainee at{' '}
-              <a href="https://noniussolutions.com">Nonius Hospitality Technology</a>, where I
-              developed my final project of the BSc in Software Engineering. In August of the same
+              I've started my professional career as a trainee at{' '}
+              <a href="https://noniussolutions.com">Nonius Hospitality Technology</a> in 2019, where
+              I developed my final project of the BSc in Software Engineering. In August of the same
               year I joined <a href="https://byside.com">BySide</a> where I got my first job as a
               Junior Backend Engineer and stayed there for 6 months, then I decided to move to{' '}
               <a href="https://i2s.pt">i2S Insurance Knowledge</a> as a Software Engineer. After
               that journey I embraced a new challenge at <a href="https://talkdesk.com">Talkdesk</a>{' '}
-              as a Software Engineer too and that's where I am at the moment.
+              in June 2021 as a Software Engineer too and that's where I am at the moment.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

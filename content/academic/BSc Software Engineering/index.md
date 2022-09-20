@@ -7,6 +7,7 @@ location: 'Porto, Portugal'
 range: 'September 2016 - July 2019'
 url: 'https://isep.ipp.pt/Course/Course/26'
 ---
+
 - Algebra, Mathematical Analysis, Discrete and Computational Mathematics
 - Programming Languages
 - Physics

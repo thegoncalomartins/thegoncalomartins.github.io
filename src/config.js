@@ -50,13 +50,13 @@ module.exports = {
       url: '/#education',
     },
     {
-      name: 'Experience',
+      name: 'Professional Experience',
       url: '/#jobs',
     },
-    // {
-    //   name: 'Work',
-    //   url: '/#projects',
-    // },
+    {
+      name: 'Projects',
+      url: '/#projects',
+    },
     {
       name: 'Contact',
       url: '/#contact',

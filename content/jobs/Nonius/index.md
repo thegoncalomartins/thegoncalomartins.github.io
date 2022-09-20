@@ -10,4 +10,4 @@ url: 'https://noniussolutions.com'
 - Joined the Engineering team
 - Developed final project from BSc degree
 - Built a set-top box voice control system
-- Technologies: C, Javascript, Java (Android API 23), PHP, MySQL
+- Technologies and tools: [C](https://www.learn-c.org/), [Bluetooth](https://www.bluetooth.com/), [JavaScript](https://www.javascript.com/), [Java](https://www.java.com/) ([Android API 23](https://developer.android.com/studio/releases/platforms#6.0)), [PHP](https://www.php.net/), [MySQL](https://www.mysql.com/), [Bugzilla](https://www.bugzilla.org/)

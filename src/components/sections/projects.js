@@ -182,7 +182,7 @@ const Projects = () => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <StyledProjectsSection>
+    <StyledProjectsSection id="projects">
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
@@ -200,14 +200,16 @@ const Projects = () => {
                 key={i}
                 classNames="fadeup"
                 timeout={i >= GRID_LIMIT ? (i - GRID_LIMIT) * 300 : 300}
-                exit={false}>
+                exit={false}
+              >
                 <StyledProject
                   key={i}
                   ref={el => (revealProjects.current[i] = el)}
                   tabIndex="0"
                   style={{
                     transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
-                  }}>
+                  }}
+                >
                   <div className="project-inner">
                     <header>
                       <div className="project-top">
@@ -239,8 +241,8 @@ const Projects = () => {
                     <footer>
                       {tech && (
                         <ul className="project-tech-list">
-                          {tech.map((tech, i) => (
-                            <li key={i}>{tech}</li>
+                          {tech.map((technology, i) => (
+                            <li key={i}>{technology}</li>
                           ))}
                         </ul>
                       )}

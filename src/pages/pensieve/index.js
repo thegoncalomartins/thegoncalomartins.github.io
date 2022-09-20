@@ -163,7 +163,8 @@ const PensievePage = ({ location, data }) => {
                             <li key={i}>
                               <Link
                                 to={`/pensieve/tags/${kebabCase(tag)}/`}
-                                className="inline-link">
+                                className="inline-link"
+                              >
                                 #{tag}
                               </Link>
                             </li>

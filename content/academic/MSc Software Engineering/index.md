@@ -7,6 +7,7 @@ location: 'Porto, Portugal'
 range: 'September 2019 - Present'
 url: 'https://isep.ipp.pt/Course/Course/87'
 ---
+
 - Software Organization and Development (DevOps Engineering)
 - Concurrent and Reliable Software
 - People and Team Management

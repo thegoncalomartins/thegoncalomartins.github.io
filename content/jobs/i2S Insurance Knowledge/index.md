@@ -7,12 +7,13 @@ range: 'March 2020 - June 2021'
 url: 'https://www.i2s.pt/'
 ---
 
-- Joined Backend Engineering Team of Insuragility Project
-- Guide and orientate interns
-- Develop new functionalities as well as solve bugs (reactive, asynchronous and concurrent programming)
-- Participate in Software architecture and design, producing useful documentation
-- Develop unit and integration tests
+- Joined Backend Engineering Team of [Insuragility](http://insuragility.io) Project
+- Guided and orientated an intern
+- Developed new functionalities and solved bugs
+- Participated in Software architecture and design, producing useful documentation
+- Developed unit and integration tests
 - Code review
-- Make presentations about new technologies and concepts to the company as well as bringing new ideas to the team and the project
+- Made presentations about new technologies and concepts to the company and brought new ideas to the team and the project
+- Deploying applications with CI/CD pipelines
 - Agile (Scrum) methodology with 2-week sprints
-- Technologies: Java (Quarkus, Vert.x), PostgreSQL, MongoDB, Neo4j, Kafka, Docker, Kubernetes, Jenkins
+- Technologies and tools: [Java](https://www.java.com/) ([Quarkus](https://quarkus.io/), [Vert.x](https://vertx.io/)), [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/), [Neo4j](https://neo4j.com/), [Kafka](https://kafka.apache.org/), [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [Jenkins](https://www.jenkins.io/), [Jira](https://www.atlassian.com/software/jira), [Confluence](https://www.atlassian.com/software/confluence)

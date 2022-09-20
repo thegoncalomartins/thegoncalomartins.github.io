@@ -13,4 +13,4 @@ url: 'https://byside.com/'
 - Developed unit and integration tests
 - Code review
 - Agile (Scrum) methodology with 2-week sprints
-- Technologies: PHP (Symfony, Vanilla), MySQL, Redis, Memcached, SOLR, HTML, CSS, JavaScript
+- Technologies and tools: [PHP](https://www.php.net/) ([Symfony](https://symfony.com/)), [MySQL](https://www.mysql.com/), [Redis](https://redis.io/), [Memcached](https://memcached.org/), [SOLR](https://solr.apache.org/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript](https://www.javascript.com/), [Balsamiq](https://balsamiq.com/), [Jira](https://www.atlassian.com/software/jira)

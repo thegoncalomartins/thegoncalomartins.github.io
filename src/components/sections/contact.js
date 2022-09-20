@@ -60,7 +60,8 @@ const Contact = () => {
     `,
   );
 
-  const { contactTitle, contactSubtitle, opportunitiesMessage, sayHelloMessage} = site.siteMetadata;
+  const { contactTitle, contactSubtitle, opportunitiesMessage, sayHelloMessage } =
+    site.siteMetadata;
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
@@ -68,9 +69,7 @@ const Contact = () => {
 
       <h2 className="title">{contactSubtitle}</h2>
 
-      <p>
-        {opportunitiesMessage}
-      </p>
+      <p>{opportunitiesMessage}</p>
 
       <a className="email-link" href={`mailto:${email}`}>
         {sayHelloMessage}

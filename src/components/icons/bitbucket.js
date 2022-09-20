@@ -15,7 +15,8 @@ const IconBitbucket = () => (
     strokeWidth="2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    className="feather feather-bitbucket">
+    className="feather feather-bitbucket"
+  >
     <g>
       <g>
         <path
