@@ -3,14 +3,14 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Gonçalo Martins',
-    description: 'Gonçalo Martins is a Software Engineer currently working at Talkdesk.',
+    description: 'Gonçalo Martins is a Software Engineer currently working at Revolut.',
     siteUrl: 'https://thegoncalomartins.github.io',
     image: '/og.png',
     hello: 'Hi, my name is',
     name: 'Gonçalo Martins',
     shortDescription: 'A mix of software engineer and human being.',
     longDescription:
-      'I\'m based in Porto, Portugal currently working fully remote at <a href="https://talkdesk.com">Talkdesk</a> and having fun in the technology world.',
+      'I\'m based in Porto, Portugal currently working at <a href="https://revolut.com">Revolut</a> and having fun in the technology world.',
     emailMessage: 'Let\'s get in touch',
     contactTitle: 'What\'s Next?',
     contactSubtitle: 'Get In Touch',

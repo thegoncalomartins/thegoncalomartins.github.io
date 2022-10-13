@@ -133,13 +133,13 @@ const About = () => {
   const skills = [
     '<a href="https://angular.io" target="_blank"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a>',
     '<a href="https://aws.amazon.com" target="_blank"> <img src="https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png" alt="aws" height="40"/> </a>',
-    '<a href="https://www.bugsnag.com/" target="_blank"> <img src="https://yt3.ggpht.com/ytc/AMLnZu8yRuKU29ijBdYYzTn_cAYOirLZLlT1eg3tZqdBXQ=s900-c-k-c0x00ffffff-no-rj" alt="bugsnag" width="40" height="40"/> </a>',
     '<a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>',
     '<a href="https://www.atlassian.com/software/confluence" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/confluence/confluence-original.svg" alt="confluence" width="40" height="40"/> </a>',
     '<a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>',
     '<a href="https://www.datadog.com/" target="_blank"> <img src="https://www.crestdatasys.com/wp-content/uploads/2021/10/Datalog-png-round-for-testimonial-min.png" alt="datadog" width="40" height="40"/> </a>',
     '<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>',
     '<a href="https://elixir-lang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elixir/elixir-original.svg" alt="elixir" width="40" height="40"/> </a>',
+    '<a href="https://cloud.google.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="googlecloud" width="40" height="40"/> </a>',
     '<a href="https://grafana.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a>',
     '<a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>',
     '<a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>',
@@ -195,8 +195,8 @@ const About = () => {
               Junior Backend Engineer and stayed there for 6 months, then I decided to move to{' '}
               <a href="https://i2s.pt">i2S Insurance Knowledge</a> as a Software Engineer, in March
               2020. After that journey I embraced a new challenge at{' '}
-              <a href="https://talkdesk.com">Talkdesk</a> in June 2021 as a Software Engineer too
-              and that's where I am at the moment.
+              <a href="https://talkdesk.com">Talkdesk</a> from June 2021 until October 2022. Now I'm
+              currently working at <a href="https://revolut.com">Revolut</a>.
             </p>
 
             <p>Here are a few technologies and tools I've been working with recently:</p>

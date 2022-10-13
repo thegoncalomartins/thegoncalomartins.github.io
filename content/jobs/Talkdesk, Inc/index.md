@@ -3,7 +3,7 @@ date: '2021-06-14'
 title: 'Software Engineer'
 company: 'Talkdesk, Inc'
 location: 'Porto, Portugal'
-range: 'June 2021 - Present'
+range: 'June 2021 - October 2022'
 url: 'https://talkdesk.com'
 ---
 
