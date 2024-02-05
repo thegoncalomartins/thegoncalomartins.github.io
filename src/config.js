@@ -26,10 +26,10 @@ module.exports = {
       name: 'Medium',
       url: 'https://medium.com/@thegoncalomartins',
     },
-    {
-      name: 'Facebook',
-      url: 'https://facebook.com/thegoncalomartins',
-    },
+    // {
+    //   name: 'Facebook',
+    //   url: 'https://facebook.com/thegoncalomartins',
+    // },
     {
       name: 'Instagram',
       url: 'https://instagram.com/thegoncalomartins',
